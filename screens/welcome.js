@@ -1,7 +1,7 @@
 import React from 'react';
 import {SafeAreaView,Alert, TextInput, ScrollView, StatusBar, StyleSheet, Text, Image, useColorScheme, View,TouchableOpacity} from 'react-native';
 import styles from "../styles/styles";
-import flower2 from "../images/flower4.jpeg";
+import flower2 from "../images/tryme.jpeg";
 import email from "../images/email.jpeg";
 import lock from "../images/lock.jpeg";
 import {NavigationContainer } from '@react-navigation/native';

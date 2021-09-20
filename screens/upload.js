@@ -2,8 +2,8 @@ import React from 'react';
 import {SafeAreaView,Alert, TextInput, ScrollView, StatusBar, StyleSheet, Text, Image, useColorScheme, View,TouchableOpacity} from 'react-native';
 import styles from "../styles/styles";
 import flower1 from "../images/background2.jpeg";
-import flower2 from "../images/flower2.jpeg";
-import flower4 from "../images/flower4.jpeg";
+import flower2 from "../images/current.jpeg";
+import flower4 from "../images/tryme.jpeg";
 import {NavigationContainer } from '@react-navigation/native';
 
 

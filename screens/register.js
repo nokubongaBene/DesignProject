@@ -1,7 +1,7 @@
 import React from 'react';
 import {SafeAreaView,Alert, ScrollView, StatusBar, StyleSheet, Text, Image, useColorScheme, View,TouchableOpacity, TextInput} from 'react-native';
 import styles from "../styles/styles";
-import flower2 from "../images/flower4.jpeg";
+import flower2 from "../images/tryme.jpeg";
 import {NavigationContainer } from '@react-navigation/native';
 import email from "../images/email.jpeg";
 import lock from "../images/lock.jpeg";
@@ -9,7 +9,7 @@ import lock from "../images/lock.jpeg";
 
 export default function register({navigation}) {
       const handleSignUp = () => {
-          navigation.navigate('welcome');
+          navigation.navigate('upload');
           
         };
       
@@ -28,7 +28,7 @@ export default function register({navigation}) {
     <TextInput editable={false} style={styles.input} />
         
     
-        <TouchableOpacity style={styles.textLogin} onPress={() =>handleLogIn()}>
+        <TouchableOpacity style={styles.textLogin} onPress={() =>handleSignUp()}>
             <Text style={styles.Login}>Register</Text>
             </TouchableOpacity>
     </View>
